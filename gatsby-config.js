@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  assetPrefix: `/asset-prefix`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -15,6 +16,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-gatsby-cloud`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
